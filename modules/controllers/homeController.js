@@ -2,15 +2,10 @@
 const homeController = {
     homePage: (request, response) => {
 
-        response.render('index', {
-            section: null
-        });
-
-    },
-    homePageById: (request, response) => {
+request.app.locals.dataProject
 
         response.render('index', {
-            section: request.params.uid
+            dataProject: request.app.locals.dataProject
         });
 
     },

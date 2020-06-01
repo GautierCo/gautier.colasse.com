@@ -16,9 +16,15 @@
 
     <nav>
         <ul class="menu-nav">
-            <li class="nav-link <%- section == 'presentation' ? 'active' : '' %>"><a href="/presentation#1">Présentation</a></li>
-            <li class="nav-link <%- section == 'cv' ? 'active' : '' %>"><a href="/cv#2">Curriculum Vitae</a></li>
-            <li class="nav-link <%- section == 'portfolio' ? 'active' : '' %>"><a href="/portfolio#3">Portfolio</a></li>
+            <li class="nav-link active" id="presentation">
+                <a href="#1" class="switch" data-goto="goto_presentation">Présentation</a>
+            </li>
+            <li class="nav-link" id="cv">
+                <a href="#2" class="switch" data-goto="goto_cv">Curriculum Vitae</a>
+            </li>
+            <li class="nav-link" id="portfolio">
+                <a href="#3" class="switch" data-goto="goto_portfolio">Portfolio</a>
+            </li>
         </ul>
     </nav>
 

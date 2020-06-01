@@ -2,9 +2,7 @@
 
 <%- include('./partials/menu') %> 
 
-<main class="main">
-
-    <div class="container presentation" id="1">
+    <div class="container" id="1">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -22,12 +20,14 @@
         </section>
         
         <div class="arrow-down">
-            <a href="/cv#2"><i class="fas fa-angle-double-down fa-2x"></i></a>
+            <a href="#2" class="switch">
+                <i class="fas fa-angle-double-down fa-2x" data-goto="goto_cv"></i>
+            </a>
         </div>
 
     </div>
 
-    <div class="container cv" id="2">
+    <div class="container" id="2">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -39,12 +39,14 @@
         </section>
         
         <div class="arrow-down">
-            <a href="/portfolio#3"><i class="fas fa-angle-double-down fa-2x"></i></a>
+            <a href="#3" class="switch">
+                <i class="fas fa-angle-double-down fa-2x" data-goto="goto_portfolio"></i>
+            </a>
         </div>
 
     </div>
 
-    <div class="container portfolio" id="3">
+    <div class="container" id="3">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -53,14 +55,36 @@
 
         <section class="section-portfolio">
 
+            <div class="portfolio-category">
+                <a href="#" class="portfolio-category-link">All</a>
+                <a href="#" class="portfolio-category-link">Javascript</a>
+                <a href="#" class="portfolio-category-link">NodeJS</a>
+                <a href="#" class="portfolio-category-link">Wordpress</a>
+            </div>
+
+            <div class="portfolio-card-container">
+
+                <% dataProject.forEach(project => { %>
+
+                    <div class="portfolio-card <%= project.name.toLowerCase() %>">
+                        <button class="portfolio-btn-project"><%= project.name %></button>
+                        <a href="#"><i class="portfolio-watch-project far fa-eye fa-lg"></i></a>
+                       
+                    </div>
+
+                <% }); %>
+            
+            </div>
+            
+
         </section>
         
         <div class="arrow-down">
-            <a href="/presentation#1"><i class="fas fa-angle-double-up fa-2x"></i></a>
+            <a href="#1" class="switch">
+                <i class="fas fa-angle-double-up fa-2x" data-goto="goto_presentation"></i>
+            </a>
         </div>
 
     </div>
-
-</main>
 
 <%- include('./partials/footer') %> 

@@ -1,6 +1,10 @@
 const express = require('express');
 const router = require('./router');
+const dataProject = require('./data/projects.json');
 const app = express();
+
+
+app.locals.dataProject = dataProject;
 
 app.set('view engine', 'ejs');
 
