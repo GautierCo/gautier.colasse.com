@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F6;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 325px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**
+* MENU-TOP (Informations)
+**/
+
+.menu-left {
+    background-color: #FCFBFD;
+    width: 325px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu-top {
+    padding: 1em;
+}
+
+.menu-avatar {
+    display: block;
+    max-width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    border: 3px solid #686868;
+}
+
+.menu-name {
+    padding: 1em;
+    text-align: center;
+    color: #201F22;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.menu-email {
+    padding: 1em;
+    text-align: center;
+    color: #B6B5B7;
+    font-size: 0.8rem;
+}
+
+.menu-bar {
+    margin: 1em auto;
+    border-bottom: 1px solid rgba(182, 181, 183, 0.205);
+    width: 96%;
+}
+
+/**
+* MENU-MIDDLE (Naviguation)
+**/
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.nav-link {
+    margin: 1em;
+}
+
+.nav-link.active {
+    font-weight: 600;
+}
+
+/**
+* MENU-BOTTOM (Socials Links)
+**/
+
+.menu-social {
+    margin: auto;
+    position: absolute;
+    bottom: 25px;
+    left: 28%;
+}
+
+.menu-social-link {
+    padding: 1em;
+}
+
+/**
+* PAGE (Main,Section,Content)
+**/
+
+.container {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-title {
+    max-width: 1200px;
+    margin: 2em 0;
+}
+
+.title-bar {
+    border-left: 8px solid #686868;
+    margin-right: 10px;
+    border-radius: 10% 50% 50% 10%;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.section-presentation {
+    background-color: #FCFBFD;
+    max-width: 1200px;
+    height: 300px;
+    padding: 2em;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.content-presentation {
+    line-height: 1.4em;
+    padding: 1em;
+}
+
+.arrow-down {
+    padding: 1em;
+    margin: 2em auto;
+}
+
+.section-cv {
+    background-color: #FCFBFD;
+    max-width: 1200px;
+    height: 300px;
+    padding: 2em;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.section-portfolio {
+    background-color: #FCFBFD;
+    max-width: 1200px;
+    height: 300px;
+    padding: 2em;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
