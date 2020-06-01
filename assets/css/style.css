@@ -48,6 +48,13 @@ a {
     font-size: 1.3em;
 }
 
+.menu-job {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
 .menu-email {
     padding: 1em;
     text-align: center;
@@ -98,6 +105,10 @@ a {
 * PAGE (Main,Section,Content)
 **/
 
+.main {
+
+}
+
 .container {
     max-width: 1200px;
     margin: 2em auto;
@@ -106,6 +117,18 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+}
+
+.container.presentation {
+
+}
+
+.container.portfolio {
+
+}
+
+.container.cv {
+
 }
 
 .container-title {
