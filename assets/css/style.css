@@ -14,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #201F22;;
 }
 
 button {
@@ -186,11 +187,18 @@ button {
 }
 
 .portfolio-category {
-
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-top: 1.5em;
 }
 
 .portfolio-category-link {
+    padding-bottom: 0.2em;
+}
 
+.portfolio-category-link.active {
+    border-bottom: 3px solid black;
 }
 
 .portfolio-card-container {
@@ -207,7 +215,6 @@ button {
 .portfolio-card {
     width: 30%;
     height: 180px;
-    background-color: blue;
     margin: 1em;
     position: relative;
     border-radius: 25px;
@@ -229,4 +236,10 @@ button {
     bottom: 15px;
     left: 15px;
     color: #FCFBFD;
+}
+
+.portfolio-watch-project:hover {
+    
+    transform: scale(1.2) rotate(15deg);;
+
 }

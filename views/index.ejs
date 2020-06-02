@@ -2,7 +2,10 @@
 
 <%- include('./partials/menu') %> 
 
-    <div class="container" id="1">
+<%- include('./partials/modal') %> 
+
+
+    <div class="container" id="prescontainer">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -20,14 +23,14 @@
         </section>
         
         <div class="arrow-down">
-            <a href="#2" class="switch">
+            <a href="#cvcontainer" class="switch">
                 <i class="fas fa-angle-double-down fa-2x" data-goto="goto_cv"></i>
             </a>
         </div>
 
     </div>
 
-    <div class="container" id="2">
+    <div class="container" id="cvcontainer">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -39,14 +42,14 @@
         </section>
         
         <div class="arrow-down">
-            <a href="#3" class="switch">
+            <a href="#portcontainer" class="switch">
                 <i class="fas fa-angle-double-down fa-2x" data-goto="goto_portfolio"></i>
             </a>
         </div>
 
     </div>
 
-    <div class="container" id="3">
+    <div class="container" id="portcontainer">
 
         <div class="container-title">
             <span class="fas fa-quote-left fa-2x fa-pull-left"></span>
@@ -56,7 +59,7 @@
         <section class="section-portfolio">
 
             <div class="portfolio-category">
-                <a href="#" class="portfolio-category-link">All</a>
+                <a href="#" class="portfolio-category-link active">All</a>
                 <a href="#" class="portfolio-category-link">Javascript</a>
                 <a href="#" class="portfolio-category-link">NodeJS</a>
                 <a href="#" class="portfolio-category-link">Wordpress</a>
@@ -67,8 +70,11 @@
                 <% dataProject.forEach(project => { %>
 
                     <div class="portfolio-card <%= project.name.toLowerCase() %>">
-                        <button class="portfolio-btn-project"><%= project.name %></button>
-                        <a href="#"><i class="portfolio-watch-project far fa-eye fa-lg"></i></a>
+                        <button class="portfolio-btn-project"><%= project.name.toUpperCase() %></button>
+
+                        <a href="#portfolio">
+                            <i id="<%= project.id %>" class="portfolio-watch-project far fa-eye fa-lg"></i>
+                        </a>
                        
                     </div>
 
@@ -80,7 +86,7 @@
         </section>
         
         <div class="arrow-down">
-            <a href="#1" class="switch">
+            <a href="#prescontainer" class="switch">
                 <i class="fas fa-angle-double-up fa-2x" data-goto="goto_presentation"></i>
             </a>
         </div>

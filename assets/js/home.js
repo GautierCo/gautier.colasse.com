@@ -2,6 +2,8 @@
  * Gestion ajout/suppression de la classe active sur le menu 
  */
 
+/* A mettre sous forme d'objet */
+
 const presentation = document.getElementById('presentation');
 const cv = document.getElementById('cv');
 const portfolio = document.getElementById('portfolio');
@@ -42,9 +44,9 @@ const showBackgroundCard = () => {
     const selectAllCards = document.querySelectorAll(`.portfolio-card`);
     
     selectAllCards.forEach(card => {
+        
         let cardClass = card.classList[1];
-        console.log(card);
-        card.style.backgroundImage = `url('/img/project/${cardClass}.jpg')`;
+        card.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.2)100%), url('/img/project/${cardClass}.jpg')`;
         card.style.backgroundSize = "cover";
 
     });

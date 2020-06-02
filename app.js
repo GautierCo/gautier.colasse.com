@@ -1,8 +1,8 @@
 const express = require('express');
 const router = require('./router');
-const dataProject = require('./data/projects.json');
-const app = express();
+const dataProject = require('./assets/data/projectsdev.json');
 
+const app = express();
 
 app.locals.dataProject = dataProject;
 
