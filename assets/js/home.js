@@ -4,6 +4,7 @@
 
 /* A mettre sous forme d'objet */
 
+
 const presentation = document.getElementById('presentation');
 const cv = document.getElementById('cv');
 const portfolio = document.getElementById('portfolio');
@@ -52,4 +53,4 @@ const showBackgroundCard = () => {
     });
 }
 
-showBackgroundCard()
+showBackgroundCard();

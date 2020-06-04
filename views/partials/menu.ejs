@@ -1,40 +1,84 @@
 <div class="menu-left">
 
-    <div class="menu-top">
+    <div class="menu-left_top">
 
-        <img src="img/avatar.jpg" alt="Avatar Gautier Colasse" class="menu-avatar">
+        <img src="img/avatar.jpg" alt="Avatar Gautier Colasse" class="menu-left_top__avatar">
 
-        <div class="menu-name">Gautier Colasse</div>
+        <div class="menu-left_top__name">Gautier Colasse</div>
 
-        <span class="menu-job">Développeur Junior FullStack JS</span>
+        <span class="menu-left_top__job">Développeur Junior FullStack JS</span>
 
-        <div class="menu-email">gautier.colasse@gmail.com</div>
+        <div class="menu-left_top__email">gautier.colasse@gmail.com</div>
     
     </div>
 
-    <div class="menu-bar"></div>
+    <div class="menu-left_bar"></div>
 
     <nav>
-        <ul class="menu-nav">
-            <li class="nav-link active" id="presentation">
-                <a href="#1" class="switch" data-goto="goto_presentation">Présentation</a>
+        <ul class="menu-left_nav">
+            <li class="menu-left_nav__nav-link active" id="presentation">
+                <a href="#prescontainer" class="switch" data-goto="goto_presentation">Présentation</a>
             </li>
-            <li class="nav-link" id="cv">
-                <a href="#2" class="switch" data-goto="goto_cv">Curriculum Vitae</a>
+            <li class="menu-left_nav__nav-link" id="cv">
+                <a href="#cvcontainer" class="switch" data-goto="goto_cv">Curriculum Vitae</a>
             </li>
-            <li class="nav-link" id="portfolio">
-                <a href="#3" class="switch" data-goto="goto_portfolio">Portfolio</a>
+            <li class="menu-left_nav__nav-link" id="portfolio">
+                <a href="#portcontainer" class="switch" data-goto="goto_portfolio">Portfolio</a>
             </li>
         </ul>
     </nav>
 
-    <div class="menu-social">
-        <a href="https://github.com/GautierCo" target="_blank" class="menu-social-link">
+    <div class="menu-left_social">
+        <a href="https://github.com/GautierCo" target="_blank" class="menu-left_social__social-link">
             <i class="fab fa-github fa-2x"></i>
         </a>
-        <a href="https://www.linkedin.com/in/gautier-colasse-828294130/" target="_blank">
+        <a href="https://www.linkedin.com/in/gautier-colasse-828294130/" target="_blank" class="menu-left_social__social-link">
             <i class="fab fa-linkedin fa-2x"></i>
         </a>
     </div>
 
+</div>
+
+<!--
+    MENU mobile : 
+-->
+<nav class="mobile">
+    <ul class="menu-top_nav">
+        <li class="menu-top_nav__nav-link active" id="presentation">
+            <a href="#prescontainer" class="switch" data-goto="goto_presentation">Présentation</a>
+        </li>
+        <li class="menu-top_nav__nav-link" id="cv">
+            <a href="#cvcontainer" class="switch" data-goto="goto_cv">Curriculum Vitae</a>
+        </li>
+        <li class="menu-top_nav__nav-link" id="portfolio">
+            <a href="#portcontainer" class="switch" data-goto="goto_portfolio">Portfolio</a>
+        </li>
+    </ul>
+</nav>
+
+
+<div class="menu-top">
+    <div class="menu-top_bar"></div>
+    <div class="menu-top_container">
+
+        <div class="menu-top_left">
+            <img src="img/avatar.jpg" alt="Avatar Gautier Colasse" class="menu-top_left__avatar">
+            <div class="menu-top_left__name">Gautier Colasse</div>
+        </div>
+
+        <div class="menu-top_right">
+
+            <span class="menu-top_right__job">Développeur Junior FullStack JS</span>
+            <div class="menu-top_right__email">gautier.colasse@gmail.com</div>
+
+            <div class="menu-top_right__social">
+                <a href="https://github.com/GautierCo" target="_blank" class="menu-top_right__social___social-link">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gautier-colasse-828294130/" target="_blank" class="menu-top_right__social___social-link">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
