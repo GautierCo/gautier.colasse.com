@@ -62,7 +62,8 @@ button {
     display: block;
     text-align: center;
     padding: 1em;
-    font-size: 0.9em;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 .menu-left_top__email {
@@ -281,8 +282,9 @@ nav.mobile {
 }
 
 .content-presentation {
-    line-height: 1.4em;
+    line-height: 1.6em;
     padding: 1em;
+    text-align: justify;
 }
 
 .arrow-down {

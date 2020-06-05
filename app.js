@@ -12,4 +12,6 @@ app.use(express.static('./assets'));
 
 app.use(router);
 
-app.listen(3000);
+app.listen(3000, () => {
+    console.log('Lancement du serveur sur le port 3000');
+});
