@@ -11,6 +11,7 @@ body {
     background-color: #F3F3F6;
     font-family: 'Montserrat', sans-serif;
     margin-left: 325px;
+    position: relative;
 }
 
 a {
@@ -121,7 +122,7 @@ button {
     justify-content: space-evenly;
     position: relative;
     padding: 0 1em;
-    margin-top: 55px;
+    /* margin-top: 55px; */
     display: none;
 }
 
@@ -243,13 +244,12 @@ nav.mobile {
 .container {
     /* border: 1px solid black; */
     max-width: 1200px;
-    margin: 0 auto 0 auto;
+    margin: 1em auto 1em auto;
     padding: 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    /* scroll-snap-align: center; */
 }
 
 .container-title {
@@ -324,7 +324,7 @@ nav.mobile {
 }
 
 .portfolio-card-container {
-    width: 100%;
+    max-width: 100%;
     margin-top: 2em;
     display: flex;
     flex-wrap: wrap;
@@ -336,7 +336,7 @@ nav.mobile {
 
 .portfolio-card {
     width: 30%;
-    height: 180px;
+    height: 160px;
     margin: 1em;
     position: relative;
     border-radius: 25px;
@@ -351,6 +351,8 @@ nav.mobile {
     background-color: #534329;
     color: #FCFBFD;
     border-radius: 10px 0 0 0;
+    font-size: 0.9em;
+
 }
 
 .portfolio-watch-project {
@@ -388,12 +390,11 @@ nav.mobile {
 @media screen and (max-width: 1450px) {
 
     .portfolio-card-container {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .portfolio-card {
-        width: 40%;
-        margin: 1em;
+        margin: 2em;
     }
 
     .portfolio-btn-project {
@@ -406,6 +407,7 @@ nav.mobile {
         width: 100%;
         padding-top: 1.5em;
     }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -436,6 +438,7 @@ nav.mobile {
 
     body {
         margin-left: 0px;
+        margin-top: 55px;
     }
 
     .menu-left {
@@ -455,16 +458,14 @@ nav.mobile {
         margin: 1em auto;
         font-size: 1em;
     }
-}
 
-@media screen and (max-width: 800px) {
-
-    body {
-        margin-left: 0px;
+    .container {
+        height: auto;
     }
 
-    .menu-left {
-        display: none;
+    .container-title {
+        margin: 5em auto 1em auto;
+        display: flex;
     }
 }
 
@@ -472,11 +473,22 @@ nav.mobile {
 
     .container {
         padding: 0 0em;
+        height: auto;
+        padding-top: 70px;
     }
 
     .menu-top_nav__nav-link a{
 
         font-size: 0.9em;
+    }
+
+    .portfolio-card {
+        margin: 1em 1em;
+    }
+
+    .container-title {
+        margin: 1em auto;
+        display: flex;
     }
 }
 

@@ -36,7 +36,11 @@
         </div>
 
         <section class="section cv">
-
+            <p class="content-presentation">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ut quibusdam itaque harum aut debitis cum quam quisquam expedita aliquam deserunt illum, nihil minima officia perferendis consectetur voluptas magnam pariatur.
+                Aperiam aliquid, facilis laudantium excepturi, itaque minus atque quibusdam at ducimus mollitia, distinctio doloribus quidem dolores nisi cumque. Consectetur rerum modi alias nemo inventore accusantium laboriosam architecto pariatur eum ea?
+                Animi ut, repudiandae officia omnis porro doloribus repellendus sunt recusandae nihil sint atque quam aperiam quae, corporis quod harum nisi tenetur impedit! Unde natus facere reiciendis quos illum? Illo, vero!
+            </p>
         </section>
         
         <div class="arrow-down">
@@ -68,16 +72,16 @@
                 <% dataProject.forEach(project => { %>
 
                     <div class="portfolio-card <%= project.name.toLowerCase() %>">
-                        <button class="portfolio-btn-project"><%= project.name.toUpperCase() %></button>
-
-                        <a href="#portfolio">
+                        <div class="portfolio-btn-project"><%= project.name.toUpperCase() %></div>
+                
+                        <a href="#portcontainer">
                             <i id="<%= project.id %>" class="portfolio-watch-project far fa-eye fa-lg"></i>
                         </a>
                        
                     </div>
-
+                
                 <% }); %>
-            
+
             </div>
             
         </section>
@@ -98,4 +102,3 @@
 <%- include('./partials/modal') %> 
 
 <%- include('./partials/footer') %> 
-

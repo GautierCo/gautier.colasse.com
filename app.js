@@ -12,6 +12,13 @@ app.use(express.static('./assets'));
 
 app.use(router);
 
-app.listen(process.env.PORT, () => {
-    console.log('Lancement du serveur sur le port' + process.env.PORT);
+app.listen(3000, () => {
+    console.log('Lancement du serveur sur le port : ' + 3000);
 });
+
+/*
+app.listen(process.env.PORT, () => {
+    console.log('Lancement du serveur sur le port : ' + process.env.PORT);
+});
+
+*/
