@@ -4,7 +4,7 @@
         "name": "ClgeCrew", 
         "description": "Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme": "eCommerce",
-        "technology": ["Wordpress"],
+        "technology": "Wordpress",
         "url": "https://clgecrew.fr/",
         "logo": "/../img/project/clgecrew.jpg",
         "urlGithub": null
@@ -15,7 +15,7 @@
         "name": "DecoDelise", 
         "description": "Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme": "eCommerce",
-        "technology": ["Wordpress", "Divi"],
+        "technology": "Wordpress",
         "url": "https://decodelise.com/",
         "logo": "/../img/project/clgecrew.jpg",
         "urlGithub": null
@@ -26,7 +26,7 @@
         "name": "cpSearch", 
         "description": "Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme": "test",
-        "technology": ["NodeJS"],
+        "technology": "NodeJS",
         "url": "http://dev.gautiercolasse.com/",
         "logo": "/../img/project/clgecrew.jpg",
         "urlGithub": "https://github.com/GautierCo/dev.gautiercolasse.com"
@@ -37,7 +37,7 @@
         "name":"Nodejs", 
         "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme":"eCommerce",
-        "technology": ["Wordpress"],
+        "technology": "Wordpress",
         "url":"https://clgecrew.fr/"
     },
 
@@ -46,7 +46,7 @@
         "name":"MDN", 
         "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme":"eCommerce",
-        "technology": ["Wordpress", "Divi"],
+        "technology": "Wordpress",
         "url":"https://decodelise.com/"
     },
 
@@ -55,7 +55,7 @@
         "name":"cpSearch", 
         "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme":"eCommerce",
-        "technology": ["NodeJS"],
+        "technology": "NodeJS",
         "url":"http://dev.gautiercolasse.com/"
     }
 ]

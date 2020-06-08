@@ -49,13 +49,13 @@
 
 .modal-project-btn {
     margin-right: 1px;
-    padding: 0.4em;
+    padding: 10px;
     margin: auto;
     font-weight: bold;
     background-color: #534329;
     color: #FCFBFD;
-    border-radius: 10px;
-    width: 50px;
+    border-radius: 25px;
+    width: 75px;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@
 .modal-project-logo {
     display: block;
     margin: 1em auto;
-    max-width: 70%;
+    max-width: 20%;
 }
 
 .modal-project-logo .mobile {

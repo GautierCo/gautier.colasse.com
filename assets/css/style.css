@@ -65,6 +65,7 @@ button {
     padding: 1em;
     font-size: 1em;
     line-height: 1.5em;
+    font-weight: 400;
 }
 
 .menu-left_top__email {
@@ -304,7 +305,6 @@ nav.mobile {
 .section.portfolio {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .portfolio-category {
@@ -332,6 +332,7 @@ nav.mobile {
     justify-content: center;
     align-items: center;
     align-content: center;
+    min-height: inherit;
 }
 
 .portfolio-card {
