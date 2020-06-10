@@ -2,12 +2,11 @@
 
 ## Version Desktop : 
 
-![](https://i.imgur.com/tGcfjVJ.gif)
+![](https://i.imgur.com/qgvcuAn.gif)
 
 ## Version Mobile : 
 
-![](https://i.imgur.com/yqU0wPQ.gif)
-
+![](https://i.imgur.com/wae4TzF.gif)
 
 
 ## Done :
@@ -19,6 +18,7 @@
 - ~~Création de la modal lors d'un clique pour regarder un projet~~
 - ~~Reponsive sur mobile/tablette~~
 - ~~Mise en place du switch entre chaque catégories en JS~~
+- ~~Setup le VPS chez DigitalOcean (ubuntu) avec nginx / pm2 pour la mise en production du site.~~
 
 ## ToDo :
 
