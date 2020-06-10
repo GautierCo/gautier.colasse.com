@@ -6,7 +6,7 @@
         "theme": "eCommerce",
         "technology": "Wordpress",
         "url": "https://clgecrew.fr/",
-        "logo": "/../img/project/clgecrew.jpg",
+        "logo": "/../img/project/logo/clgecrew.png",
         "urlGithub": null
     },
 
@@ -17,7 +17,7 @@
         "theme": "eCommerce",
         "technology": "Wordpress",
         "url": "https://decodelise.com/",
-        "logo": "/../img/project/clgecrew.jpg",
+        "logo": "/../img/project/logo/clgecrew.png",
         "urlGithub": null
     },
 
@@ -28,7 +28,7 @@
         "theme": "test",
         "technology": "NodeJS",
         "url": "http://dev.gautiercolasse.com/",
-        "logo": "/../img/project/clgecrew.jpg",
+        "logo": "/../img/project/logo/clgecrew.png",
         "urlGithub": "https://github.com/GautierCo/dev.gautiercolasse.com"
     },
     
@@ -56,6 +56,24 @@
         "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
         "theme":"eCommerce",
         "technology": "NodeJS",
+        "url":"http://dev.gautiercolasse.com/"
+    },
+
+    { 
+        "id":7,
+        "name":"cpSearch", 
+        "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
+        "theme":"eCommerce",
+        "technology": "Javascript",
+        "url":"http://dev.gautiercolasse.com/"
+    },
+
+    { 
+        "id":8,
+        "name":"cpSearch", 
+        "description":"Notwithstanding that general features of the vital decisions can be regarded as deeply insignificant. The critical acclaim of the indicates the importance of the major and minor objectives. In any case, we can formally change the mechanism of the feedback system.", 
+        "theme":"eCommerce",
+        "technology": "Javascript",
         "url":"http://dev.gautiercolasse.com/"
     }
 ]

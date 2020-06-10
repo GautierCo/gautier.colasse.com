@@ -47,9 +47,13 @@ const setDataInModal = () => {
                 document.querySelector('.modal-project-theme').textContent = projectSelected.theme;
                 document.querySelector('.modal-project-tech').textContent = projectSelected.technology;
                 document.querySelector('.modal-project-btn').href = projectSelected.url;
-                document.querySelector('.modal-project-logo').src = projectSelected.logo;
+                document.querySelector('.modal-project-logo-mobile').src = projectSelected.logo;
+                document.querySelector('.modal-project-logo-desktop').src = projectSelected.logo;
 
                 if (projectSelected.urlGithub != null) {
+
+                    const projectUrlGithub = document.querySelector('.modal-project-btn.github');
+
                     projectUrlGithub.href = projectSelected.urlGithub;
                     projectUrlGithub.style.display = 'inline-block';
                 }

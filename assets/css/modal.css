@@ -114,13 +114,13 @@
     max-width: 100%;
 }
 
-.modal-project-logo {
+.modal-project-logo-desktop {
     display: block;
     margin: 1em auto;
-    max-width: 20%;
+    max-width: 100%;
 }
 
-.modal-project-logo .mobile {
+.modal-project-logo-mobile {
     display: none;
 }
 
@@ -152,7 +152,9 @@
         display: none;
     }
 
-    .modal-project-logo .mobile {
+    .modal-project-logo-mobile {
+        max-width: 80%;
+        margin: auto;
         display: block;
     }
 
